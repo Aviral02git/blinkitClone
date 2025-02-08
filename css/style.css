@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    border-top:1px solid #ccc ;
+    border-bottom: 1px solid #ccc ;
+
+
+}
+.headerLeft{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+}
+.logo{
+    padding: 24px 30px;
+    border-right:1px solid #ccc;
+}
+.headerAddress{
+    padding: 20px 30px;
+
+}
+.headerAddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.headerAddress p{
+    font-size: 14px;
+}
+.searchBox{
+    flex-grow:1 ;
+    background-color: #F8F8F8;
+    display: flex;
+    border-radius: 15px;
+    border:1px solid #FFFFFF;
+}
+.searchBox button{
+    padding: 15px;
+    border:none;
+    background-color: transparent;
+
+}
+.searchBox input{
+    flex-grow: 1;
+    border:none;
+    background-color: transparent;
+
+}
+.searchBox input:focus{
+    outline: none;
+
+}
+.headerBtn{
+    display: flex;
+    gap:40px;
+    margin-right: 40px;
+}
+.headerBtn button{
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+
+}
+.headerBtn button:last-child{
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:rgb(12,131,31);
+}
+
+
+
