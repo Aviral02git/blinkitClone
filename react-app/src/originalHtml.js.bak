@@ -1,0 +1,138 @@
+export default `
+<header>
+    <div class="headerLeft">
+        <div class="logo">
+            <a href="#">
+                <!-- SVG logo omitted for brevity: will show styled text fallback -->
+                <img src="/images/logo-inline.png" alt="logo" style="height:30px;"/>
+            </a>
+        </div>
+        <div class="headerAddress">
+            <h3>Delivery in 8 minutes</h3>
+            <p>1003, Sector 45 Rd, Block C, Block Cs, Sector 45, Gurugram,...</p>
+        </div>
+    </div>
+    <form class="searchBox">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input type="text"/>
+    </form>
+    <div class="headerBtn">
+        <button onclick="alert('Login clicked')">Login</button>
+        <button onclick="alert('My Cart clicked')"><i class="fa-solid fa-cart-shopping"></i> My Cart</button>
+    </div>
+</header>
+
+<section class="bannerSection">
+    <img src="/images/banner.jpeg" alt="">
+</section>
+
+<section class="orderBanner">
+    <div class="orderBannerItems"><img src="/images/pharmacy-WEB.jpeg" alt=""></div>
+    <div class="orderBannerItems"><img src="/images/Pet-Care_WEB.jpeg" alt=""></div>
+    <div class="orderBannerItems"><img src="/images/babycare-WEB.jpeg" alt=""></div>
+</section>
+
+<section class="categorySection">
+    <div class="categoryItems"><img src="/images/paan-corner_web.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-2_10.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-3_9.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-4_9.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-5_4.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-6_5.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-7_3.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-8_4.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-9_3.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-10.jpeg" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-11.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-12.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-13.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-14.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-15.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-16.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-17.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-18.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-19.avif" alt=""></div>
+    <div class="categoryItems"><img src="/images/Slice-20.avif" alt=""></div>
+</section>
+
+<section class="productSection">
+    <div class="headingRow"><h2>Dairy, Bread & Eggs</h2><a>see all</a></div>
+    <div class="productRow">
+        <div class="productItems">
+            <div class="productImg">
+                <img width="70%" src="/images/milk1.avif" alt="">
+                <p><img src="/images/15-mins.avif" width="15"/>15 MIN</p>
+            </div>
+            <div class="productContent">
+                <h3>Amul Taaza Toned Fresh Milk</h3>
+                <p>500 ml</p>
+                <div class="btn-price-outer"><b>₹28</b><button onclick="alert('Add clicked')">Add</button></div>
+            </div>
+        </div>
+        <!-- more productItems can be copied similarly -->
+    </div>
+</section>
+
+<section class="productSection">
+    <div class="headingRow"><h2>Snacks & Munchies</h2><a>see all</a></div>
+    <div class="productRow">
+        <div class="productItems">
+            <div class="productImg">
+                <img width="70%" src="/images/sn1.avif" alt="">
+                <p><img src="/images/15-mins.avif" width="15"/>15 MIN</p>
+            </div>
+            <div class="productContent">
+                <h3>Orion Korean Kimchi K Snack Onion Rings</h3>
+                <p>70 g</p>
+                <div class="btn-price-outer"><b>₹54</b><button onclick="alert('Add clicked')">Add</button></div>
+            </div>
+        </div>
+        <!-- more productItems -->
+    </div>
+</section>
+
+<footer>
+    <div class="footer-mid">
+        <div class="footer-mid-row1">
+            <div class="footer-mid-row1-left">
+                <h3>Useful Links</h3>
+                <div class="useFullLinks">
+                    <ul>
+                        <li> <a href="">About</a> </li>
+                        <li> <a href="">Careers</a> </li>
+                        <li> <a href="">Blog</a> </li>
+                    </ul>
+                    <ul>
+                        <li> <a href="">Privacy</a> </li>
+                        <li> <a href="">Terms</a> </li>
+                    </ul>
+                    <ul>
+                        <li> <a href="">Partner</a> </li>
+                        <li> <a href="">Franchise</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-mid-row1-right">
+                <div class="CategoriesHeadingRow"><h3>Categories</h3><a href="">see all</a></div>
+                <ul type="col" class="FooterLinks__List"><li><a href="">Vegetables & Fruits</a></li></ul>
+            </div>
+        </div>
+        <div class="footer-mid-row2">
+            <p>© Blink Commerce Private Limited, 2016-2025</p>
+            <div class="appIcons">
+                <h5>Download App</h5>
+                <img width="100" src="https://blinkit.com/d61019073b700ca49d22.png"/>
+                <img width="100" src="https://blinkit.com/8ed033800ea38f24c4f0.png"/>
+            </div>
+            <div class="sLinks">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div class="footer-mid-row3">
+            <p>“Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related...</p>
+        </div>
+    </div>
+</footer>
+`;
