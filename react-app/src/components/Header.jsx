@@ -123,7 +123,7 @@ export default function Header({ onSearch }) {
                     className="suggestionItem"
                     onClick={() => handleSuggestionClick(p.name)}
                   >
-                    <img src={`images/${p.image}`} alt={p.name} className="suggestionThumb" />
+                    <img src={`${p.image}`} alt={p.name} className="suggestionThumb" />
                     <div className="suggestionText">
                       <div className="suggestionName">{p.name}</div>
                       <div className="suggestionMeta">{p.quantity} · ₹{p.price}</div>

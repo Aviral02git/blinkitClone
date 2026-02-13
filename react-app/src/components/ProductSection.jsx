@@ -12,9 +12,9 @@ export default function ProductSection({ title, products }) {
                 {products.map(product => (
                     <div className="productItems" key={product.id}>
                         <div className="productImg">
-                            <img width="70%" src={`images/${product.image}`} alt={product.name} />
+                            <img width="70%" src={`${product.image}`} alt={product.name} />
                             <p>
-                                <img src="images/15-mins.avif" width="15" />
+                                <img src="assets/images/icons/15-mins.avif" width="15" />
                                 15 MIN
                             </p>
                         </div>

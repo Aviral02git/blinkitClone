@@ -17,9 +17,9 @@ export default function ProductGrid({ products }) {
       {products.map(p => (
         <div key={p.id} className="productItems">
           <div className="productImg">
-            <img width="70%" src={`images/${p.image}`} alt={p.name} />
+            <img width="70%" src={`${p.image}`} alt={p.name} />
             <p>
-              <img src="images/15-mins.avif" width="15" />
+              <img src="assets/images/icons/15-mins.avif" width="15" />
               15 MIN
             </p>
           </div>

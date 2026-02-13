@@ -28,7 +28,7 @@ export default function CategorySection() {
         <section className="categorySection">
             {images.map((img, index) => (
                 <div className="categoryItems" key={index}>
-                    <img src={`images/${img}`} alt={`Category ${index + 1}`} />
+                    <img src={`assets/images/categories/${img}`} alt={`Category ${index + 1}`} />
                 </div>
             ))}
         </section>

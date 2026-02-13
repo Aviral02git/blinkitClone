@@ -140,7 +140,7 @@ export default function CheckoutPage({ onBack }) {
                         <div className="checkoutItemsList">
                             {cartItems.map(item => (
                                 <div key={item.id} className="checkoutItem">
-                                    <img src={`images/${item.image}`} alt={item.name} />
+                                    <img src={`${item.image}`} alt={item.name} />
                                     <div className="checkoutItemInfo">
                                         <div className="checkoutItemName">{item.name}</div>
                                         <div className="checkoutItemQty">{item.quantity}</div>

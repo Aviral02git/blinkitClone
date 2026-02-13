@@ -45,7 +45,7 @@ export default function CartDrawer({ onCheckout }) {
                 ) : (
                     cartItems.map(item => (
                         <div key={item.id} style={{ display: 'flex', gap: '10px', marginBottom: '20px', borderBottom: '1px solid #f9f9f9', paddingBottom: '10px' }}>
-                            <img src={`images/${item.image}`} alt={item.name} style={{ width: '60px', height: '60px', objectFit: 'contain', border: '1px solid #eee', borderRadius: '4px' }} />
+                            <img src={`${item.image}`} alt={item.name} style={{ width: '60px', height: '60px', objectFit: 'contain', border: '1px solid #eee', borderRadius: '4px' }} />
                             <div style={{ flex: 1 }}>
                                 <div style={{ fontSize: '14px', marginBottom: '4px' }}>{item.name}</div>
                                 <div style={{ fontSize: '12px', color: '#888', marginBottom: '8px' }}>{item.quantity}</div>
